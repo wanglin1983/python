@@ -19,7 +19,7 @@ LIGHT_GRAY="\033[0;37m"
 WHITE="\033[1;37m"
 
 def cprint(color, string):
-    print color + string + NONE 
+    print(color + string + NONE)
 
 def info(string):
     cprint(YELLOW, string)
